@@ -39,7 +39,6 @@ class scrape():
         if gamedata.split(',')[1] != '':
             file.write(bytes(gamedata, encoding='utf-8', errors='ignore'))
 
-
 run = scrape()
 run.start()
 
